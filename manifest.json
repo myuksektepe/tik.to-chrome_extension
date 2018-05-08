@@ -1,0 +1,20 @@
+{
+  "name": "tik.to",
+  "version": "1.0.1",
+  "description": "Hızlı ve kolay link kısaltma servisi",
+  "manifest_version": 2,
+  "icons" : {
+  	"128" : "assets/images/icon128.png",
+  	"48" : "assets/images/icon48.png",
+  	"16" : "assets/images/icon16.png"
+  },
+  "browser_action" : {
+  	"default_icon" : "assets/images/icon128.png",
+  	"default_popup" : "popup.html"
+	},
+
+
+	"permissions": [
+	  "tabs"
+	]
+}
